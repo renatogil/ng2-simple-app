@@ -6,9 +6,12 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {RouterModule} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {AppComponent} from './app.component';
+
 import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {ExperimentsComponent} from './experiments/experiments.component';
+import {WidgetsComponent} from './widgets/widgets.component';
+
 import { routes } from './routes';
 
 @NgModule({
@@ -21,7 +24,8 @@ import { routes } from './routes';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ExperimentsComponent
+    ExperimentsComponent,
+    WidgetsComponent
   ],
   bootstrap: [AppComponent]
 })
